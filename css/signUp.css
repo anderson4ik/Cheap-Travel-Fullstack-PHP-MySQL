@@ -1,0 +1,73 @@
+/* ------------ Login ------------------------*/
+
+.login{
+    margin-bottom:15.5rem;
+   }
+   
+   .form-signin {
+       width: 100%;
+       max-width: 330px;
+       text-align: center;
+       padding-top: 40px;
+       padding-bottom: 40px;
+       margin: 40px auto;
+   }
+   
+   .form-signin {
+       font-weight: 400;
+   }
+   
+   .form-signin .form-control {
+       position: relative;
+       box-sizing: border-box;
+       height: auto;
+       padding: 10px;
+       font-size: 16px;
+   }
+   
+   .form-signin .form-control:focus {
+       z-index: 2;
+   }
+   
+   .form-signin input[type="email"] {
+       margin-bottom: -1px;
+       border-bottom-right-radius: 0;
+       border-bottom-left-radius: 0;
+   }
+   
+   .form-signin input[type="password"] {
+       margin-bottom: 10px;
+       border-top-left-radius: 0;
+       border-top-right-radius: 0;
+   }
+
+   /* ------------ Sign Up ------------------------*/
+
+.sign_up{
+    margin-bottom: 6rem;
+}
+
+@media (min-width:20rem) and (max-width:768px) {
+    p.float-right a{
+        display: none;
+    }
+
+    /*login*/
+    div.login{
+        margin-bottom: 0;
+    }
+
+    form.form-signin{
+        margin: 1rem auto;
+        padding-bottom: 1rem;
+    }
+
+    p.mt-5{
+        margin-top: 1rem !important;
+    }
+
+    /*signUp*/
+    div.sign_up{
+        margin-bottom: 0;
+    }
+}
